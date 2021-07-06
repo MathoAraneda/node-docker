@@ -60,8 +60,8 @@ app.use(
 app.use(express.json());
 
 app.get("/api/v1", (req, res) => {
-    res.send("<h1>Cambiado para ver</h1>");
-    console.log("listo!!!");
+    res.send("<h1>Cambiado para ver 2</h1>");
+    console.log("listo!!!22");
 });
 
 //localhost:3000/api/v1/post/
